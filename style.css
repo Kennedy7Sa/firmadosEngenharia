@@ -34,9 +34,20 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
 }
+nav a {
+    text-decoration: none;
+    color:var(--cor-subtitulo);
+    transition: 1s;
+}
+.link__ativo{
+    background-color: var(--background-hero);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
 .logo__firmados{
     width: 4rem;
 }
