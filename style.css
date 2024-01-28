@@ -176,3 +176,37 @@ hr{
     font-weight: 500;
 
 }
+.foto__sobre{
+
+      
+    max-width: 1120px;
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+   /* pra centralizar   */
+    padding: 0rem 2rem;
+    margin: auto;
+      /* PRA SOBREPOR AS IMAGENS  */
+    
+}
+.sobre{
+
+    max-width: auto;
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+   /* pra centralizar   */
+    padding: 0rem 2rem;
+    margin: auto;
+      /* PRA SOBREPOR AS IMAGENS  */
+    
+
+}
