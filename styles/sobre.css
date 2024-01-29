@@ -103,11 +103,27 @@ nav a {
     justify-content: space-between;
     align-items: center;
     gap: 6rem;
-   /* pra centralizar   */
+   
     padding: 0rem 2rem;
     margin: auto;
-      /* PRA SOBREPOR AS IMAGENS  */
-    overflow: clip;
+   
+    /* overflow: clip; */
+}
+.sobre{
+     
+    max-width: 1120px;
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+   
+    padding: 0rem 2rem;
+    margin: auto;
+   
+
 }
 .hero__conteudo{
 
@@ -120,8 +136,8 @@ nav a {
 }
 
 .hero__imagens__container{
-    max-width: 45%;
-    column-count: 3;
+    width: 100%;
+    column-count: 1;
     column-gap: 1rem;
     margin: -1rem;
     padding: 0rem -2rem;
@@ -130,7 +146,7 @@ nav a {
    
 }
 .hero__imagens__container > figure > img {
-    width: 100%;
+    width: 600px;
     border-radius: 0.5rem;
 
 }
@@ -161,14 +177,7 @@ hr{
     font-weight: 400;
 }
 
-.rodape{
-    padding: 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: var(--cor--rodape);
-    
-}
+
 
 .autor{
     color: var(--texto--menu);
@@ -187,48 +196,67 @@ hr{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 20rem;
+    gap: 6rem;
    /* pra centralizar   */
     padding: 0rem 2rem;
     margin: auto;
       /* PRA SOBREPOR AS IMAGENS  */
     
 }
+.sobre{
 
-.galeria_gessoliso{
+    max-width: auto;
+    height: 60vh;
     
-    max-width: 400px;
-    column-count: 3;
-    column-gap: 1 rem;
-    
-    max-width: 1120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+   /* pra centralizar   */
+    padding: 0rem 2rem;
     margin: auto;
+      /* PRA SOBREPOR AS IMAGENS  */
     
-}
-.galeria_gessoliso > img{
-    margin: 1rem;
-    width: 100%;
-    border-radius: 1rem;
-    margin-bottom: 10px;
-    border-style: outset;
-    
-   
+
 }
 
+.rodape{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--cor--rodape);
+  
+    
+}
 @media screen and (max-width:900px) {
     /* foto e paragrafo pricipal  */
     .hero{
         flex-direction: column;
+        margin: auto;
+        height: 70%;
+        
+    }
+    .sobre{
+        flex-direction: column;
+        
     }
     /* navbar */
     nav{
         display: none;
     }
-    .galeria_gessoliso{
-    
-        max-width: 600px;
-        column-count: 1;
+    .hero__imagens__container{
+        max-width: 70%;
+        column-count: 2;
+        column-gap: 1rem;
+        margin: -1rem;
+        padding: 0rem -2rem;
+        margin: auto;
+    }
+    .hero__subtitulo{
+       
+        font-size: 2.5rem;
        
     }
 }
-
