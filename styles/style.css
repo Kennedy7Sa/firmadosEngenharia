@@ -28,16 +28,29 @@ html{
 }
 
 nav{
-    max-width: 1220px;
-    margin: auto;
-    padding: 1.5rem 10rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;  
+    background:var(--cor-background);
+    height: 8vh;
 }
 
+.main{
+    background-size: cover;
+    height: 92vh;
 
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    
+
+}
 
 nav a {
     text-decoration: none;
@@ -51,16 +64,8 @@ nav a {
 
 }
 
-.logo__firmados{
-    width: 4rem;
-}
-.menu{
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    color: var(--texto--menu);
 
-}
+
 
 .redes_sociais{
     color: var(--texto-redes-sociais);
@@ -85,13 +90,11 @@ nav a {
 }
 
 
-.main{
-    display: flex;
-    flex-direction: column;
+
     
 
 
-}
+
 .principal__hero{
     background: var(--background-hero);  
     
@@ -230,41 +233,5 @@ hr{
     flex-direction: column;
     align-items: center;
     background: var(--cor--rodape);
-  
     
 }
-
-
-@media screen and (max-width:900px) {
-    /* foto e paragrafo pricipal  */
-    .hero{
-        flex-direction: column;
-        margin: auto;
-        
-    }
-    .sobre{
-        flex-direction: column;
-
-    }
-    /* navbar */
-   
-    
-    nav{
-        
-            flex-direction: column;
-            gap: 10px;
-    
-        
-    }   
-    
-    .hero__imagens__container{
-        max-width: 70%;
-        column-count: 2;
-        column-gap: 1rem;
-        margin: -1rem;
-        padding: 0rem -2rem;
-        margin: auto;
-    }
-   
-}
-
