@@ -221,9 +221,7 @@ hr{
         flex-direction: column;
     }
     /* navbar */
-    nav{
-        display: none;
-    }
+   
     .galeria_gessoliso{
     
         max-width: 600px;

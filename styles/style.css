@@ -36,6 +36,24 @@ nav{
     justify-content: space-between;
     align-items: center;  
 }
+
+.hamburguer{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid var(--texto--menu);
+    cursor: pointer;
+
+}
+.hamburguer::before,
+.hamburguer::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: var(--texto--menu);
+    margin-top: 5px;
+}
 nav a {
     text-decoration: none;
     color:var(--cor-subtitulo);
@@ -230,6 +248,8 @@ hr{
   
     
 }
+
+
 @media screen and (max-width:900px) {
     /* foto e paragrafo pricipal  */
     .hero{
@@ -239,12 +259,30 @@ hr{
     }
     .sobre{
         flex-direction: column;
-        
+
     }
     /* navbar */
-    nav{
-        display: none;
+    .hamburguer{
+        display: block;
+
     }
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: var(--cor--rodape);
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        clip-path: circle( 100px at 90% -15%);
+        transition: 1s ease-out;
+        pointer-events: none;
+    }   
+    
     .hero__imagens__container{
         max-width: 70%;
         column-count: 2;
@@ -255,3 +293,4 @@ hr{
     }
    
 }
+

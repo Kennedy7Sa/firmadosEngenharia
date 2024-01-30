@@ -146,7 +146,7 @@ nav a {
    
 }
 .hero__imagens__container > figure > img {
-    width: 600px;
+    width: 100%;
     border-radius: 0.5rem;
 
 }
@@ -186,26 +186,10 @@ hr{
     font-weight: 500;
 
 }
-.foto__sobre{
 
-      
-    max-width: 1120px;
-    height: 60vh;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 6rem;
-   /* pra centralizar   */
-    padding: 0rem 2rem;
-    margin: auto;
-      /* PRA SOBREPOR AS IMAGENS  */
-    
-}
 .sobre{
 
-    max-width: auto;
+    max-width: 1120;
     height: 60vh;
     
     display: flex;
@@ -243,9 +227,7 @@ hr{
         
     }
     /* navbar */
-    nav{
-        display: none;
-    }
+    
     .hero__imagens__container{
         max-width: 70%;
         column-count: 2;
