@@ -174,7 +174,7 @@ hr{
     color: var(--cor-subtitulo);
     font-family: inter;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight:  400;
 }
 
 
@@ -227,7 +227,11 @@ hr{
         
     }
     /* navbar */
-    
+    nav{
+        flex-direction: column;
+        gap: 10px;
+
+    }
     .hero__imagens__container{
         max-width: 70%;
         column-count: 2;
@@ -241,4 +245,6 @@ hr{
         font-size: 2.5rem;
        
     }
-}
+
+    }
+    

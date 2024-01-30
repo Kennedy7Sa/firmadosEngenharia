@@ -37,23 +37,8 @@ nav{
     align-items: center;  
 }
 
-.hamburguer{
-    display: none;
-    border: none;
-    background: none;
-    border-top: 3px solid var(--texto--menu);
-    cursor: pointer;
 
-}
-.hamburguer::before,
-.hamburguer::after{
-    content: " ";
-    display: block;
-    width: 30px;
-    height: 3px;
-    background: var(--texto--menu);
-    margin-top: 5px;
-}
+
 nav a {
     text-decoration: none;
     color:var(--cor-subtitulo);
@@ -262,25 +247,14 @@ hr{
 
     }
     /* navbar */
-    .hamburguer{
-        display: block;
-
-    }
+   
+    
     nav{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: var(--cor--rodape);
-
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        gap: 0;
-        clip-path: circle( 100px at 90% -15%);
-        transition: 1s ease-out;
-        pointer-events: none;
+        
+            flex-direction: column;
+            gap: 10px;
+    
+        
     }   
     
     .hero__imagens__container{
