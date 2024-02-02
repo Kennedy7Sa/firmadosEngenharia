@@ -1,51 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <!-- teste -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firmado engenharia</title>
-    <meta name="description" content="Valorize seu sonho , contrate um engenheiro"> 
-    <link rel="stylesheet" href="/styles/sobre.css">
+    <title>Sobre á empresa </title>
+    <!-- estilo do navbar -->
+    <link rel="stylesheet" href="/assets/styles/about-style.css">
 </head>
 <body>
+    <!-- cabeçalho -->
     <header>
-        <nav>
-            <a href="/index.html"><img class="logo__firmados" src="/assets/logo firmado.jpeg" alt="logo firmado engenharia"></a>
-            <ul class="menu">
-            <li><a href="/index.html" class="link__ativo">Home</a></li>
-            <li><a href="/about.html" class="link__ativo">Sobre</a></li>
-            <li><a href="/drywall.html" class="link__ativo">drywall</a></li>
-        </ul>
-        <a class="redes_sociais" href="https://www.instagram.com/eng.george.rodrigues/?hl=pt-br"target="_">Instagram</a>
-        <a class="redes_sociais" href="https://www.facebook.com/firmadoengenharia" target="_blank">Facebook</a>
-        
+        <nav class="navbar">
+            <a href="/index.html" class="logo">Firmado engenharia</a> 
+            <ul class="nav-menu">
+                
+                 <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>          
+                 <li class="nav-item"><a href="/about.html" class="nav-link">Sobre</a></li>          
+                 <li class="nav-item"><a href="/drywall.html" class="nav-link">Driwall</a></li>          
+
+            </ul>
+            <!-- botão hamburguer  -->
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
-   
     <main>
-        <div class="principal__hero">
-            <section class="hero">
-                <header class="hero__conteudo">
-                    <span class="destaque cor__destaque">um pouco sobre nós</span>
-                    <h1>Eng.George Rodrigues </h1>
-                    <hr/>
-                    <h2 class="hero__subtitulo"> Sob sua liderança , a inovação é um compromisso constante. Desde tecnologias de ponta até métodos construtivos revolucionários,a Firmados está na linha de frente da evolução da engenharia.</h2>
-                </header>
-                <div class="hero__imagens__container">
-                    <figure><img src="/assets/George rodrigues gerente executivo.jpg" alt=""></figure>
-                </div>
-        </section>
         <div>
-            <section>
-                <hr>
-                
-            </section>
+            <div class="backgroud-hero">
+                <section class="hero">
+                    <header class="conteudo-hero">
+                    
+                        <span class="destaque cor__destaque">Um pouco sobre nós</span>
+                        <h1>Eng.George Rodrigues </h1>
+                        <hr/>
+                        <h2 class="hero__subtitulo"> Sob sua liderança , a inovação é um compromisso 
+                            constante. Desde tecnologias de ponta até métodos construtivos revolucionários,
+                            a Firmados está na linha de frente da evolução da engenharia.</h2>
+                    </header>
+                    <div class="container-imagens">
+                        <figure><img src="/assets/George rodrigues gerente executivo.jpg" alt=""></figure>
+                       
+                        
+                    </div>
+                    >
+                </section>
+            </header>
         </div>
+       
     </main>
-    <footer class="rodape">
-        <p class="autor">Desenvolvido por Kennedy S. Arruda</p>
+    <hr>
+    <footer>
+    <p>Desenvolvido por Kennedy S. Arruda</p>
+</footer>
 
-    </footer>
+
+
+ <!-- link do js -->
+    <script src="/navbar.js"></script>    
 </body>
 </html>

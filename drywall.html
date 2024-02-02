@@ -1,64 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instalamos drywall</title>
-    <meta name="description" content="Valorize seu sonho , contrate um engenheiro"> 
-    <link rel="stylesheet" href="/styles/style-drywall.css">
-    
+    <title>Instalção de drywall</title>
+    <!-- estilo do navbar -->
+    <link rel="stylesheet" href="/assets/styles/drywall-style.css">
 </head>
 <body>
+    <!-- cabeçalho -->
     <header>
-        <nav>
-            <a href="/index.html"><img class="logo__firmados" src="/assets/logo firmado.jpeg" alt="logo firmado engenharia"></a>
-            <ul class="menu">
-            <li><a href="/index.html" class="link__ativo">Home</a></li>
-            <li><a href="/about.html" class="link__ativo">Sobre</a></li>
-            <li><a href="/drywall.html" class="link__ativo">drywall</a></li>
-        </ul>
-        <a class="redes_sociais" href="https://www.instagram.com/eng.george.rodrigues/?hl=pt-br"target="_">Instagram</a>
-        <a class="redes_sociais" href="https://www.facebook.com/firmadoengenharia" target="_blank">Facebook</a>
-        
+        <nav class="navbar">
+            <a href="/index.html" class="logo">Firmado engenharia</a> 
+            <ul class="nav-menu">
+                
+                 <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>          
+                 <li class="nav-item"><a href="/about.html" class="nav-link">Sobre</a></li>          
+                 <li class="nav-item"><a href="/drywall.html" class="nav-link">Driwall</a></li>          
+
+            </ul>
+            <!-- botão hamburguer  -->
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
-   
     <main>
-        <div class="principal__hero">
+        <div>
+            <div class="backgroud-hero">
+                <section class="hero">
+                    <header class="conteudo-hero">
+                    
+                        <span class="destaque cor__destaque">Nossa especialidade</span>
+                        <h1>Instalação de drywall </h1>
+                        <hr/>
+                        <h2 class="hero__subtitulo">Nossos profissionais possuem 
+                            uma vasta experiência na Instalação de drywall, 
+                            proporcionando acabamentos precisos e sofisticados.</h2>
+                    </header>
+                    <div class="container-imagens">
+                        <figure><img src="/assets/gesso liso/geso1.jpg" alt=""></figure>
+                                            
+                    </div>                   
+                </section>
+                    <!-- galeria de imagens      -->
+                <section>
+                    <div class="galeria-drywall">
+                        <img src="/assets/gesso liso/geso2.jpg" alt="">
+                        <img src="/assets/gesso liso/geso3.jpg" alt="">
+                        <img src="/assets/gesso liso/gesso4.jpg" alt="">
+                        <img src="/assets/gesso liso/gesso5.jpg" alt="">
+                        <img src="/assets/gesso liso/gesso6.jpg" alt="">
+                        <img src="/assets/gesso liso/gesso7.jpg" alt="">
+                        <img src="/assets/gesso liso/gesso8.jpg" alt="">
+                        <img src="/assets/gesso liso/gesso9.jpg" alt="">
+
+                    
+                    </div>                 
             
-            <section class="hero">
-                <header class="hero__conteudo">
-                    <span class="destaque cor__destaque">Nossa especialidade</span>
-                    <h1>Instalação de drywall</h1>
-                    <hr/>
-                    <h2 class="hero__subtitulo">Nossos profissionais possuem uma vasta experiência na Instalação de drywall, proporcionando acabamentos precisos e sofisticados.</h2>
-                </header>
-                <div>
-                    <img class="foto__sobre" src="/assets/massa-corrida.jpg" alt="homens trabalhando com gesso">
-                </div>
-        
-            </section>
-                <div>
-                    <section class="galeria_gessoliso">
-                    <img src="/assets/gesso liso/geso1.jpg" alt="">
-                    <img  src="/assets/gesso liso/geso2.jpg" alt="">
-                    <img  src="/assets/gesso liso/geso3.jpg" alt="">
-                    <img  src="/assets/gesso liso/gesso4.jpg" alt="">
-                    <img  src="/assets/gesso liso/gesso5.jpg" alt="">
-                    <img  src="/assets/gesso liso/gesso6.jpg" alt="">
-                    <img  src="/assets/gesso liso/gesso7.jpg" alt="">
-                    <img  src="/assets/gesso liso/gesso8.jpg" alt="">
-                    <img  src="/assets/gesso liso/gesso9.jpg" alt="">
-                    </section>
-    
-                </div>
+                </section> 
+            </header>
         </div>
-      
-
+       
     </main>
-    <footer class="rodape">
-        <p class="autor">Desenvolvido por Kennedy S. Arruda</p>
+    <hr>
+    <footer>
+    <p>Desenvolvido por Kennedy S. Arruda</p>
+</footer>
 
-    </footer>
+
+
+ <!-- link do js -->
+    <script src="/navbar.js"></script>    
 </body>
 </html>
