@@ -29,8 +29,8 @@ html{
 
 main{
     /* pra jogar o rodapé pra baixo     */
-    height: 80vh;
-    background-color: var(--cor-background)
+    /* height: 80vh;
+    background-color: var(--cor-background) */
     
 }
 /* cabeçalho da pagina e navegação  */
@@ -139,13 +139,24 @@ hr{
     font-weight: 400;
 }
 .container-imagens{
-        max-width:45%;
-        column-count: 3;
+        max-width:30%;
+        column-count: 1;
         column-gap: 1rem;
         margin: -1rem;
         padding: 0rem -2rem;
         margin: auto;
-        overflow: clip;
+      
+}
+.imagem_principal > img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+
 }
 .container-imagens > figure > img {
     max-width: 100%;
@@ -204,5 +215,13 @@ footer{
     .destaque{
         margin-top: 5%;
     }
-
+    .container-imagens{
+        display: none;
+    }
+    .imagem_principal > img{
+        display: block;
+    }
+    .conteudo-hero{
+        padding: 10%;
+    }
 }
