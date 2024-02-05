@@ -219,4 +219,10 @@ footer{
 .galeria-drywall{
     column-count: 1;    
 }
+.container-imagens{
+    display: none;
+}
+.conteudo-hero{
+    padding: 10%;
+}
 }
